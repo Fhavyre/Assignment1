@@ -1,3 +1,5 @@
+package com.assignment1.server;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -25,6 +27,7 @@ public class TCPClient {
         out.close();
         clientSocket.close();
     }
+
 
     public static void main(String[] args) throws IOException {
         TCPClient client = new TCPClient();
